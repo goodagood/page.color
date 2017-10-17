@@ -1,3 +1,7 @@
+bundle.js
+# tmp checkings
+check/
+
 # Logs
 logs
 *.log

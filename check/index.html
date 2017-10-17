@@ -53,10 +53,15 @@
 
 <div class="topnav" id="w3topnav">
   <div class="logo">goodogood</div>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="w3topnavFun()">&#9776;</a>
+  <a href="javascript:void(0)" id="randomColor">Random color</a>
+  <a href="javascript:void(0)" id="textColor">Text color</a>
+  <a href="#about">None</a>
+  <a href="javascript:void(0);"
+     style="font-size:15px;"
+     id="w3topnavSwitch"
+     class="icon"
+     onclick="w3topnavFun()"
+    >&#9776;</a>
 </div>
 
 <div id="wrapper" class="container">
@@ -309,14 +314,14 @@
 
 
 <script>
-document.getElementById('galleryLinks').onclick = function (event) {
-  event = event || window.event;
-  var target = event.target || event.srcElement,
-  link = target.src ? target.parentNode : target,
-  options = {index: link, event: event},
-  links = this.getElementsByTagName('a');
-  blueimp.Gallery(links, options);
-};
+//document.getElementById('galleryLinks').onclick = function (event) {
+//  event = event || window.event;
+//  var target = event.target || event.srcElement,
+//  link = target.src ? target.parentNode : target,
+//  options = {index: link, event: event},
+//  links = this.getElementsByTagName('a');
+//  blueimp.Gallery(links, options);
+//};
 </script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

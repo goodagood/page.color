@@ -85,17 +85,20 @@ function rollBodyForeground(){
     console.log(f.hex(), b.hex(), ratio);
 
     document.body.style.color = f.hex();
-    document.body.style.backgroundColor = b.hex();
+    //document.body.style.backgroundColor = b.hex();
 }
 
-document.getElementById('randombodycolor').onclick = randomBodyColor;
-document.getElementById('redoColor').onclick = redoColor;
-document.getElementById('rollBodyForeground').onclick = rollBodyForeground;
+//document.getElementById('randombodycolor').onclick = randomBodyColor;
+//document.getElementById('redoColor').onclick = redoColor;
+//document.getElementById('rollBodyForeground').onclick = rollBodyForeground;
 
 
-window.randomHexColorPair = randomHexColorPair;
-window.randomColor = randomColor;
-window.randomBodyColor = randomBodyColor;
+//window.randomHexColorPair = randomHexColorPair;
+//window.randomColor = randomColor;
+//window.randomBodyColor = randomBodyColor;
 
 
 //colorDefault();
+
+module.exports.randomBodyColor = randomBodyColor;
+module.exports.rollBodyForeground = rollBodyForeground;
