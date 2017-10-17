@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <!--
+    <link rel="stylesheet" href="%PUBLIC_URL%/original.index.css">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    -->
+
+
+    <title>1016 testing  </title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <h1> can you test? <span id="date"> </span> </h1>
+
+    <div id="root">
+        root div
+    </div>
+
+    <button id="randombodycolor">random body color </button>
+    <button id="redoColor">redo color </button>
+    <button id="rollBodyForeground">rollBodyForeground </button>
+
+    <h2> Sample doc </h2>
+    <p>
+    <b>wzrd</b>
+
+    In a <i>similar</i> spirit to <u>beefy</u> but in a more minimal form is wzrd.
+
+    Just npm install -g wzrd then you can do:
+
+    wzrd app.js
+
+    and open up http://localhost:9966 in your browser.
+    </p>
+    <pre>
+    In a similar spirit to beefy but in a more minimal form is wzrd.
+
+    Just npm install -g wzrd then you can do:
+
+    wzrd app.js
+
+    and open up http://localhost:9966 in your browser.
+    </pre>
+
+  </body>
+  <script src="./omycolor.js" > </script>
+  <script>
+    document.getElementById("date").innerHTML = (Date().toString());
+
+    //$(function(){ //colorDefault(); });
+  </script>
+</html>
